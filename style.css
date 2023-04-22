@@ -1,0 +1,143 @@
+body {
+    font-family: 'Jost', sans-serif;
+    background-color: #FEFEFE;
+}
+
+main {
+    margin-bottom: 50px;
+}
+
+.barra-arriba {
+    width: 100%;
+    height: 110px;
+    background-color: #2a7ae4;
+    background: linear-gradient(to right, #2a7ae4 40%, #86A6DF);
+}
+
+.logo {
+    width: 100px;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-right: 70%;
+    float: left;
+}
+
+.titulo {
+    font-family: 'Archivo Black', sans-serif;
+    color: #F2F2F2;
+    font-size: 1.2em;
+    padding: 15px 20px 20px 20px;
+}
+
+.presentacion {
+    margin: 80px 40px 50px;
+    font-size: 3.5em;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+.entrada {
+    margin-top: 20px;
+    font-size: 24px;
+    border: none;
+    opacity: 0.6;
+    transition: opacity 0.8s ease-in-out;
+    width: 100%;
+    height: 80%;
+    vertical-align: top;
+    resize: none;
+}
+
+.entrada:hover {
+    opacity: 1;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.3em;
+}
+
+.caja1 {
+    flex: 0 0 40%;
+    margin: 0 60px 40px 40px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.4);
+    transition: 1s;
+}
+
+.caja1:hover {
+    transform: scale(1.03);
+}
+
+.caja2 {
+    flex: 0 0 30%;
+    margin: 0 40px 40px 40px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+    transition: 1s;
+}
+
+.caja2:hover {
+    transform: scale(1.02);
+}
+
+.texto-cajas {
+    margin-bottom: 30px;
+}
+
+.resultado {
+    text-align: center;
+    font-size: 120%;
+}
+
+.img-caja2 {
+    width: 100%;
+}
+
+.contenedor-but {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.3em;
+    margin: 50px;
+}
+
+.footer {
+    background: linear-gradient(to right, #86A6DF, #2a7ae4 80%);
+    padding: 20px;
+    height: 150px;
+    text-align: center;
+    color: #fff;
+}
+  
+.footer-text {
+    margin-top: 50px;
+}
+
+.botones {
+    display: block;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 1.2em;
+    margin-left: 50px;
+    background-color: #86A6DF;
+    border-radius: 10px;
+    padding: 10px 50px;
+    color: white;
+    border-style: none;
+    transition: 1.5s;
+}
+
+.botones:hover {
+    color: black;
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    transition: 1.5s;
+}
+
+#copiar {
+    margin-left: 30%;
+}

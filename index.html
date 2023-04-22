@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Jost&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+
+        <script src="encriptador.js"></script>
+        <title>Encriptador</title>
+    </head>
+    <body>
+        <header>
+            <div class="barra-arriba">
+                <h1 class="titulo">CHALLENGE</h1>
+                <img class="logo" src="images/logo.png" alt="icono-alura">
+
+                <div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div>
+                <h1 class="presentacion">ENCRIPTADOR<br>DE TEXTO</h1>
+            </div>
+
+            <div class="contenedor">
+                <div class="caja1">
+                    <p class="texto-cajas">Ingresa tu texto aquí:</p>
+
+                    <textarea class="entrada" name="" id="texto-normal" cols="0" rows="0"></textarea>
+                
+                </div>
+                
+                <div class="caja2">
+                    <p class="texto-cajas">Resultado:</p>
+                    <img class="img-caja2" id="img-busqueda" src="images/search.png" alt="">
+                    <p class="resultado" id="t_resultado">Ningún mensaje fue encontrado :(</p>
+                    <br>
+                    <p id="texto-guia" style="text-align: center;"><em>Ingresa el texto que desees encriptar o desencriptar</em></p>
+
+                </div>
+                
+            </div>
+            <div class="contenedor-but">
+                <button class="botones" onclick="encriptar()">Encriptar</button>
+                <button class="botones" onclick="desencriptar()">Desencriptar</button>
+                <button class="botones" onclick="copy()" id="copiar">COPIAR</button>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p class="footer-text">2023 - David Santiago Muñoz</p>
+            <br>
+            <a href="https://github.com/Deivis44"><p>GitHub</p></a>
+            <br>
+            <a href="https://www.linkedin.com/in/david-santiago-mu%C3%B1oz-fernandez-8b675a183/"><p>LinkedIn</p></a>
+          </footer>
+    </body>
+</html>
